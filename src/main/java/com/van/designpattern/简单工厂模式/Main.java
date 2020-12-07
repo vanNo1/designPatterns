@@ -1,5 +1,8 @@
 package com.van.designpattern.简单工厂模式;
 
+/**
+ * 计算器
+ */
 public class Main {
     public static void main(String[] args) {
         Operation sum = OperationFactory.createOperation('+');

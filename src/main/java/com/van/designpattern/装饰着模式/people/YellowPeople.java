@@ -10,6 +10,6 @@ public class YellowPeople extends People {
 
     @Override
     public void show() {
-        System.out.println("i'm yellow people");
+        super.show();
     }
 }

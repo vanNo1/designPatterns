@@ -9,6 +9,7 @@ public class WhitePeople extends People {
 
     @Override
     public void show() {
-        System.out.println("i'm white people");
+        super.show();
+
     }
 }
