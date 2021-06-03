@@ -3,6 +3,7 @@ package com.van.designpattern.策略模式;
 /**
  * 模拟商场优惠策略
  * context 里面肯定要把所有逻辑封装好，客户端拿来用就是了，比如打7折：在context中定义好是7折，不要让客户端来输入7！
+ *
  */
 public class Main {
     public static void main(String[] args) {
